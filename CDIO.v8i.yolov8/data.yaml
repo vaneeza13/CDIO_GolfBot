@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Easter', 'ball', 'goal', 'obstacle', 'wall']
+
+roboflow:
+  workspace: cdio-dsumh
+  project: cdio-kuiw6
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cdio-dsumh/cdio-kuiw6/dataset/8
